@@ -139,6 +139,7 @@
 
   .photo-grid {
       margin: 64px 16px 0;
+      gap: 12px;
   }
 
   .page__wrapper {
@@ -147,10 +148,6 @@
 
   .places {
       margin: 64px auto 0;
-  }
-
-  .photo-grid {
-      gap: 12px;
   }
 }
 
