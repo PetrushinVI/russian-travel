@@ -6,19 +6,9 @@
 
 Сайт создан с помощью html и css.
 
-
-* Интро
-* Figma
-* Картинки
-
-**Интро**
+Cсылка на GitHub Pages: https://petrushinvi.github.io/russian-travel/
 
 
 
-**Figma**
-
-
-
-**Картинки**
 
 
