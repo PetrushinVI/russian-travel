@@ -1,0 +1,6 @@
+.cover__background {
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+}
