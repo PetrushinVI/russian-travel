@@ -1,0 +1,21 @@
+.header__lang-links {
+    display: flex;
+    color: #FFFFFF;
+    width: 77px;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    gap: 18px;
+    align-items: end;
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang-links {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

@@ -1,4 +1,6 @@
 .cover__overlay {
-  background: #2A2C2F;
-  opacity: 0.3;
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
 }

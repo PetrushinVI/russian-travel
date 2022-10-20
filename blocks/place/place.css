@@ -5,3 +5,26 @@
   grid-template-columns: 460px auto;
   gap: 48px 40px;
 }
+
+@media screen and (max-width: 928px) {
+  .place {
+    grid-template-columns: 440px auto;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .place {
+    grid-template-columns: 340px auto;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 32px;
+    margin: 0;
+  }
+}

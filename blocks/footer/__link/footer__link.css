@@ -13,8 +13,24 @@
   opacity: 1;
   transition-duration: .5s;
   transition-timing-function: linear;
+  margin: 0;
 }
 
 .footer__link:hover {
   opacity: .8;
+}
+
+@media screen and (max-width: 736px) {
+  .footer__link {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .footer__link {
+    flex-direction: column;
+    font-size: 24px;
+    line-height: 24px;
+    gap: 32px;
+  }
 }

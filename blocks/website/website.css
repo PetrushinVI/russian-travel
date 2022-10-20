@@ -1,3 +1,10 @@
 .website {
   align-self: end;
 }
+
+@media screen and (max-width: 610px) {
+  .website {
+    align-self: start;
+    padding: 0 16px;
+  }
+}
