@@ -11,11 +11,18 @@
     text-align: right;
     gap: 18px;
     align-items: end;
+    padding-bottom: 6px;
 }
 
 @media screen and (max-width: 767px) {
     .header__lang-links {
         font-size: 18px;
         line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-links {
+        max-width: 62px;
     }
 }
