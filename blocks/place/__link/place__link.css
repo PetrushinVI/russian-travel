@@ -1,4 +1,4 @@
-.place__website_link {
+.place__link {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -10,12 +10,12 @@
   transition-timing-function: linear;
 }
 
-.place__website_link:hover {
+.place__link:hover {
   opacity: .8;
 }
 
 @media screen and (max-width: 610px) {
-  .place__website_link {
+  .place__link {
     padding: 0;
   }
 }
